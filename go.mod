@@ -1,6 +1,6 @@
 module github.com/xSamaa/TwitSam
 
-goVersion 1.16
+go 1.11
 
 require(
 
