@@ -1,6 +1,8 @@
 module github.com/xsama/twitsam
 
 go 1.16
+// +heroku goVersion go1.14
+// +heroku install ./...
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
