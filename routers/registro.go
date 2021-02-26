@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/xSamaa/TwitSam/bd"
-	"github.com/xSamaa/TwitSam/models"
+	"github.com/xSamaa/twitsam/bd"
+	"github.com/xSamaa/twitsam/models"
 )
 
 /*Registro es la funcion para crear en la BD el registro de usuario */

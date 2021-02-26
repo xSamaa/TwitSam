@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/xsama/twitsam/bd"
-	"github.com/xsama/twitsam/handlers"
+	"github.com/xSamaa/twitsam/bd"
+	"github.com/xSamaa/twitsam/handlers"
 )
 
 func main() {

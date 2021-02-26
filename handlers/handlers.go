@@ -7,8 +7,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
-	"github.com/xsama/twitsam/middlew"
-	"github.com/xsama/twitsam/routers"
+	"github.com/xSamaa/twitsam/middlew"
+	"github.com/xSamaa/twitsam/routers"
 )
 
 /*Manejadores setteo el puerto, el handle y activo el Server*/

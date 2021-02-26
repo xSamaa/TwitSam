@@ -1,4 +1,4 @@
-module github.com/xsama/twitsam
+module github.com/xSamaa/twitsam
 
 go 1.16
 // +heroku goVersion go1.14
