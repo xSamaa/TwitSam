@@ -3,7 +3,7 @@ package middlew
 import (
 	"net/http"
 
-	"github.com/xSamaa/TwitSam/bd"
+	"github.com/xsama/twitsam/bd"
 )
 
 /*ChequeoBD es el middlew que me permite conocer el estado de la BD*/

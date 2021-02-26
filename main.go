@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"github.com/xSamaa/TwitSam/bd"
-	"github.com/xSamaa/TwitSam/handlers"
+	"github.com/xsama/twitsam/bd"
+	"github.com/xsama/twitsam/handlers"
 )
 
 func main() {
 	if bd.CheckConnection() == 0 {
-		log.Fatal("Sin conexion a la base de datos")
+		log.Fatal("Sin conexion en la bd")
 		return
 	}
 	handlers.Manejadores()
