@@ -2,4 +2,4 @@
 
 
 
-·· BackEnd de una especie de twitter.
+·· BackEnd para una app inspirada en twitter
