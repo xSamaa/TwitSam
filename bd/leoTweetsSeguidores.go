@@ -9,7 +9,7 @@ import (
 )
 
 /*LeoTweetsSeguidores lee los tweets de los seguidores */
-func LeoTweetsSeguidores(ID string, pagina int) ([]models.DevuelvoTweets, bool) {
+func LeoTweetsSeguidores(ID string, pagina int) ([]models.DevuelvoTweetsSeguidores, bool) {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 	db := MongoCN.Database("twitsam")
